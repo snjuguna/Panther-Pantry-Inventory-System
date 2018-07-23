@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    div {
+        text-align: center;
+        border-radius: 15px;
+        background-color : #f2f2f2;
+        padding: 10px;
+    }
+    body {
+        background:url("background.jpg");
+        }
+    h1{
+        color: black;
+    }
+    input[type=submit] {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    </style>
+<body>
+        <h1 style="text-align:center;"> Register to Order from Panther Pantry!</h1>
+    <div>
+        <form action="Register.php" method="Post">
+                First Name: <input type="text" name="rfirstname" size="20"/> <br>
+                <br>
+                Last Name: <input type="text" name="rlastname" size="20"/> <br>
+                <br>
+                Email: <input type="email" name="remail" size="20"/> <br>
+                Email must contain "@student.gsu.edu" <br>
+                <br>
+                Password: <input type="password" name="regipass" size="20"/> <br>
+                Password must include: <br>
+                -One upper case letter <br>
+                -One lower case letter <br>
+                -One number <br>
+                -8 or more characters long <br>
+                <br>
+                Re-type Password: <input type="password" name="regipass2" size="20"/> <br>
+                <br>
+                <br>
+                Admin Code: <input type="password" name="adminpass" size="6" maxlength="6"/> <br>
+                <br>
+                <br>
+                <input type="submit" value="Submit"\>
+        </form>
+        <br>
+        <br>
+        <a href="home.php">Back to login</a>
+</body>
+</html>
